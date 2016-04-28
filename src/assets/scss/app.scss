@@ -1,0 +1,66 @@
+@import 'settings';
+@import 'foundation';
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.greeting{
+  padding: 20px;
+  margin: 0 50px;
+  h1{
+    font-family: 'Anton', sans-serif;
+    color: #022F80;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 35px;
+  }
+}
+.padding{
+  padding: 0 20px;
+  margin: 0 40px;
+  p{
+    text-align: center;
+  }
+
+}
+.list{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  color: #022F80;
+}
+ul{
+  font-family: 'Open Sans', sans-serif;
+  color: #022F80;
+}
+p{
+  color: #022F80;
+}
+.icon{
+  width: 2.5em;
+  margin: 0 auto;
+}
+.icon-p{
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+  a{
+    color: #022F80;
+    font-family: 'Anton', sans-serif;
+    font-size: 21px;
+  }
+}
+.center-content{
+  display: flex;
+  justify-content: center;
+}
+.learn-more{
+  font-weight: 600;
+  text-align: center;
+}
+#click-here {
+  color: #DA0E0E;
+  font-weight: 600;
+}
